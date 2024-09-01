@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.project-card .btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project-card .btn:hover {
+    background-color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer ul.social {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul.social li {
+    margin: 0 15px;
+}
+
+footer ul.social li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul.social li a:hover {
+    text-decoration: underline;
+}
